@@ -11,24 +11,24 @@ public class Vehiculo {
         this.marca = marca;
         this.tipo = tipo;
         this.modelo = modelo;
-        this.kilometraje = ***********;
+        this.kilometraje = kilometraje;
     }
 
     // Métodos getter para obtener los valores de los atributos
     public String getCodigo() {
-        return ***********;
+        return codigo;
     }
 
     public String getMarca() {
-        return ***********;
+        return marca;
     }
 
     public String getTipo() {
-        return ***********;
+        return tipo;
     }
 
     public int getModelo() {
-        return ***********;
+        return modelo;
     }
 
     public double getKilometraje() {
@@ -59,6 +59,6 @@ class Camioneta extends Vehiculo {
 class Motocicleta extends Vehiculo {
     // Constructor de la clase Motocicleta
     public Motocicleta(String codigo, String marca, int modelo, double ********) {
-        super(codigo, ********, "Motocicleta", modelo, kilometraje);
+        super(codigo, marca, "Motocicleta", modelo, kilometraje);
     }
 }
